@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GFXStudio</string>
+    <string name="next">Log In</string>
+    <string name="Signup">Sign Up</string>
+    <string name="forgotpass">Forgot Password?</string>
+    <string name="home">Home</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name_sign">Name</string>
+    <string name="email_sign">Email</string>
+    <string name="mobile_no_sign">Mobile No.</string>
+    <string name="password_sign">Password</string>
+</resources>
