@@ -4,10 +4,13 @@
     <string name="Signup">Sign Up</string>
     <string name="forgotpass">Forgot Password?</string>
     <string name="home">Home</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
     <string name="name_sign">Name</string>
     <string name="email_sign">Email</string>
     <string name="mobile_no_sign">Mobile No.</string>
     <string name="password_sign">Password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user">New User?</string>
+    <string name="sign_in">Sign In</string>
 </resources>
