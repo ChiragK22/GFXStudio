@@ -10,20 +10,21 @@ import android.widget.TextView;
 public class LogInActivity extends AppCompatActivity {
     private Button button;
     private TextView textView;
-    private  TextView textView1;
+    private TextView textView1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
 
-        button = (Button) findViewById(R.id.sign_in_button);
+        button =  findViewById(R.id.sign_in_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openActivityHome();
             }
         });
-        textView = (TextView) findViewById(R.id.new_user);
+        textView =  findViewById(R.id.new_user);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,7 +32,7 @@ public class LogInActivity extends AppCompatActivity {
             }
         });
 
-        textView1 = (TextView) findViewById(R.id.home1);
+        textView1 = findViewById(R.id.home1);
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,13 +42,13 @@ public class LogInActivity extends AppCompatActivity {
 
     }
 
-    private void openActivitySignUp() {
-        Intent intent = new Intent(this, SignUpActivity.class);
+    private void openActivityHome() {
+        Intent intent = new Intent(this, Home.class);
         startActivity(intent);
     }
 
-    private void openActivityHome() {
-        Intent intent = new Intent(this, Home.class);
+    private void openActivitySignUp() {
+        Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
     }
 }

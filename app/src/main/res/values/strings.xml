@@ -13,4 +13,6 @@
     <string name="forgot_password">Forgot Password?</string>
     <string name="new_user">New User?</string>
     <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="alredy_user">Alredy User?</string>
 </resources>

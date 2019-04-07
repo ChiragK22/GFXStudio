@@ -8,21 +8,22 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainPage extends AppCompatActivity {
-    private Button button;
-    private Button button1;
-    private TextView textView;
+    public Button button;
+    public Button button1;
+    public TextView textView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
-        button = (Button) findViewById(R.id.login_button);
+        button =  findViewById(R.id.login_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openActivityLogin();
             }
         });
-        button1 = (Button) findViewById(R.id.sign_up_button);
+        button1 =  findViewById(R.id.sign_up_button);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,7 +31,7 @@ public class MainPage extends AppCompatActivity {
             }
         });
 
-        textView = (TextView) findViewById(R.id.textView2);
+        textView =  findViewById(R.id.textView2);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -39,17 +40,20 @@ public class MainPage extends AppCompatActivity {
         });
 
     }
-    public void openActivityHome(){
+
+    public void openActivityHome() {
         Intent intent = new Intent(this, Home.class);
         startActivity(intent);
 
     }
-    public void openActivityLogin(){
+
+    public void openActivityLogin() {
         Intent intent = new Intent(this, LogInActivity.class);
         startActivity(intent);
 
     }
-    public void openActivitySignUp(){
+
+    public void openActivitySignUp() {
         Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
 

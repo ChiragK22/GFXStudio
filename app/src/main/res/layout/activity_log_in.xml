@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LogInActivity"
-    android:background="@drawable/sign_up_png"
-    >
+    android:background="@drawable/signupma"
+    tools:context=".LogInActivity">
 
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="300dp"
+        android:layout_width="270dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -19,7 +18,7 @@
         android:layout_marginBottom="8dp"
         android:backgroundTint="#1d5177"
         android:ems="10"
-        android:fontFamily="@font/arima_madurai_medium"
+        android:fontFamily="@font/carrois_gothic"
         android:hint="@string/email"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
@@ -28,23 +27,24 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.401"
-        tools:targetApi="o" />
+        tools:targetApi="P" />
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="270dp"
+        android:layout_height="42dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:autofillHints=""
         android:backgroundTint="#1d5177 "
         android:ems="10"
-        android:fontFamily="@font/arima_madurai_medium"
+        android:fontFamily="@font/carrois_gothic"
         android:hint="@string/password"
         android:inputType="textPassword"
         android:textColor="#1d5177 "
@@ -54,7 +54,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="p" />
 
     <TextView
         android:id="@+id/home1"
@@ -64,7 +65,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:fontFamily="@font/arima_madurai_medium"
+        android:fontFamily="@font/carrois_gothic"
         android:text="@string/forgot_password"
         android:textAlignment="center"
         android:textColor="#1d5177 "
@@ -75,7 +76,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.879" />
+        app:layout_constraintVertical_bias="0.869" />
 
     <TextView
         android:id="@+id/new_user"
@@ -85,7 +86,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:fontFamily="@font/arima_madurai_medium"
+        android:fontFamily="@font/carrois_gothic"
         android:text="@string/new_user"
         android:textAlignment="center"
         android:textColor="#1d5177 "
@@ -100,14 +101,14 @@
 
     <Button
         android:id="@+id/sign_in_button"
-        android:layout_width="300dp"
+        android:layout_width="270dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/button_effects"
-        android:fontFamily="@font/arima_madurai_medium"
+        android:fontFamily="@font/carrois_gothic"
         android:text="@string/sign_in"
         android:textAlignment="center"
         android:textColor="#ffffff "
@@ -115,8 +116,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintVertical_bias="0.659" />
 </android.support.constraint.ConstraintLayout>

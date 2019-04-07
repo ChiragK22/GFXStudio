@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUpActivity"
-    android:background="@drawable/signup">
+    android:background="@drawable/signup"
+    tools:context=".SignUpActivity">
 
     <EditText
         android:id="@+id/editText3"
@@ -15,20 +15,21 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:backgroundTint="#f9aa33"
         android:ems="10"
         android:fontFamily="@font/arima_madurai_medium"
         android:hint="@string/name_sign"
         android:inputType="textPersonName"
         android:textColor="#f9aa33"
         android:textColorHint="#f9aa33"
-        android:backgroundTint="#f9aa33"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.192" />
+        app:layout_constraintVertical_bias="0.192"
+        android:autofillHints="" tools:targetApi="o"/>
 
     <EditText
         android:id="@+id/editText4"
@@ -38,20 +39,21 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:backgroundTint="#f9aa33"
         android:ems="10"
         android:fontFamily="@font/arima_madurai_medium"
         android:hint="@string/email_sign"
         android:inputType="textEmailAddress"
         android:textColor="#f9aa33"
         android:textColorHint="#f9aa33"
-        android:backgroundTint="#f9aa33"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.276" />
+        app:layout_constraintVertical_bias="0.276"
+        android:autofillHints="" tools:targetApi="o"/>
 
     <EditText
         android:id="@+id/editText5"
@@ -61,20 +63,21 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:backgroundTint="#f9aa33"
         android:ems="10"
         android:fontFamily="@font/arima_madurai_medium"
         android:hint="@string/mobile_no_sign"
         android:inputType="phone"
-        android:textStyle="bold"
         android:textColor="#f9aa33"
         android:textColorHint="#f9aa33"
-        android:backgroundTint="#f9aa33"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.361" />
+        app:layout_constraintVertical_bias="0.361"
+        android:autofillHints="" tools:targetApi="o"/>
 
     <EditText
         android:id="@+id/editText6"
@@ -84,20 +87,21 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:backgroundTint="#f9aa33"
         android:ems="10"
         android:fontFamily="@font/arima_madurai_medium"
         android:hint="@string/password_sign"
+        android:inputType="textPassword"
         android:textColor="#f9aa33"
         android:textColorHint="#f9aa33"
-        android:backgroundTint="#f9aa33"
-        android:inputType="textPassword"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.441" />
+        app:layout_constraintVertical_bias="0.441"
+        android:autofillHints="" tools:targetApi="o"/>
 
     <Button
         android:id="@+id/button2"
@@ -109,7 +113,7 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/button_effects"
         android:fontFamily="@font/arima_madurai_medium"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         android:textAlignment="center"
         android:textColor="#f9aa33"
         android:textSize="18sp"
@@ -130,7 +134,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/arima_madurai_medium"
-        android:text="Alredy User?"
+        android:text="@string/alredy_user"
         android:textAlignment="center"
         android:textColor="#f9aa33"
         android:textSize="14sp"

@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="Signup" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimaryDark">#fc9700</item>
+        <item name="colorPrimaryDark">#00BCD4</item>
     </style>
 
 </resources>
