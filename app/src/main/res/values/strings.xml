@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">GFXStudio</string>
     <string name="next">Log In</string>
-    <string name="Signup">Sign Up</string>
-    <string name="forgotpass">Forgot Password?</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="forgotPass">Forgot Password?</string>
     <string name="home">Home</string>
     <string name="name_sign">Name</string>
     <string name="email_sign">Email</string>
@@ -12,7 +12,8 @@
     <string name="password">Password</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="new_user">New User?</string>
+    <string name="your_password">Your Password</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
-    <string name="alredy_user">Alredy User?</string>
+    <string name="already_user">Already User?</string>
 </resources>

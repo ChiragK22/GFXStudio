@@ -17,20 +17,20 @@ public class LogInActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
 
-        button =  findViewById(R.id.sign_in_button);
+        button = findViewById(R.id.sign_in_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openActivityHome();
             }
         });
-        textView =  findViewById(R.id.new_user);
-        textView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openActivitySignUp();
-            }
-        });
+        textView = findViewById(R.id.new_user);
+       textView.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               openActivitySignUp();
+           }
+       });
 
         textView1 = findViewById(R.id.home1);
         textView1.setOnClickListener(new View.OnClickListener() {
@@ -42,13 +42,15 @@ public class LogInActivity extends AppCompatActivity {
 
     }
 
-    private void openActivityHome() {
-        Intent intent = new Intent(this, Home.class);
-        startActivity(intent);
-    }
-
     private void openActivitySignUp() {
         Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
     }
+
+    private void openActivityHome() {
+        Intent intent = new Intent(this, SignUpActivity.class);
+        startActivity(intent);
+    }
+
+
 }
