@@ -43,12 +43,12 @@ public class LogInActivity extends AppCompatActivity {
     }
 
     private void openActivitySignUp() {
-        Intent intent = new Intent(this, Home.class);
+        Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
 
     private void openActivityHome() {
-        Intent intent = new Intent(this, Home.class);
+        Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
 

@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainPage extends AppCompatActivity {
+public class LandingPageActivity extends AppCompatActivity {
     Button button;
     Button button1;
     TextView textView;
@@ -43,12 +43,12 @@ public class MainPage extends AppCompatActivity {
     }
 
     private void openActivitySignUp() {
-        Intent intent = new Intent(this, Home.class);
+        Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
 
     public void openActivityHome() {
-        Intent intent = new Intent(this, Home.class);
+        Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
 
