@@ -43,12 +43,12 @@ public class MainPage extends AppCompatActivity {
     }
 
     private void openActivitySignUp() {
-        Intent intent = new Intent(this, SignUpActivity.class);
+        Intent intent = new Intent(this, Home.class);
         startActivity(intent);
     }
 
     public void openActivityHome() {
-        Intent intent = new Intent(this, SignUpActivity.class);
+        Intent intent = new Intent(this, Home.class);
         startActivity(intent);
     }
 
