@@ -16,7 +16,7 @@ public class LandingPageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
-
+/*
         button = findViewById(R.id.login_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,10 +39,10 @@ public class LandingPageActivity extends AppCompatActivity {
             public void onClick(View view) {
                 openActivityHome();
             }
-        });
+        });*/
     }
 
-    private void openActivitySignUp() {
+   /* private void openActivitySignUp() {
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
@@ -55,6 +55,6 @@ public class LandingPageActivity extends AppCompatActivity {
     public void openActivityLogin() {
         Intent intent = new Intent(this, LogInActivity.class);
         startActivity(intent);
-    }
+    }*/
 
 }
