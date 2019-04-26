@@ -20,4 +20,8 @@
     <string name="textview">TextView</string>
     <string name="switchFor">Yes</string>
     <string name="welcome">Welcome</string>
+    <string name="next">Next</string>
+    <string name="title">Title</string>
+    <string name="Description">TextView</string>
+    <string name="todo">TODO</string>
 </resources>

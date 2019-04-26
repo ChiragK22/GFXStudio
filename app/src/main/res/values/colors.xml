@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#000000</color>
-    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorPrimaryDark">#E7E7E7</color>
     <color name="colorAccent">#000000</color>
     <color name="sign_in_button">#1d5177 </color>
 
@@ -11,6 +11,10 @@
     <color name="Red">#DB4437</color>
     <color name="Yellow">#F4B400</color>
     <color name="Green">#0F9D58</color>
+
+    //for Text
+    <color name="IndicatorColor">#c0c0c0</color>
+    <color name="DescriptionText">#656565</color>
 
 
 </resources>
