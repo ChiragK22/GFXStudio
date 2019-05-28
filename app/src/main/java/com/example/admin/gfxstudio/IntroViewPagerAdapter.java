@@ -25,10 +25,10 @@ public class IntroViewPagerAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View layoutScreen = inflater.inflate(R.layout.intro_screen,null);
+        View layoutScreen = inflater.inflate(R.layout.intro_screen, null);
 
         ImageView imageView = layoutScreen.findViewById(R.id.intro_image);
-        TextView title =  layoutScreen.findViewById(R.id.intro_title);
+        TextView title = layoutScreen.findViewById(R.id.intro_title);
         TextView description = layoutScreen.findViewById(R.id.intro_description);
 
         title.setText(listScreen.get(position).getTitle());
@@ -51,6 +51,6 @@ public class IntroViewPagerAdapter extends PagerAdapter {
 
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
-        container.removeView((View)object);
+        container.removeView((View) object);
     }
 }
